@@ -1,0 +1,8 @@
+C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\bin\Debug\matrix tester.exe.config
+C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\bin\Debug\matrix tester.exe
+C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\bin\Debug\matrix tester.pdb
+C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\matrix_tester.Form1.resources
+C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\matrix_tester.Properties.Resources.resources
+C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\game of life.csproj.GenerateResource.Cache
+C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\matrix tester.exe
+C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\matrix tester.pdb
