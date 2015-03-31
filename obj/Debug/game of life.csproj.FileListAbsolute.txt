@@ -6,3 +6,6 @@ C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\matrix_t
 C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\game of life.csproj.GenerateResource.Cache
 C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\matrix tester.exe
 C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\matrix tester.pdb
+C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\bin\Debug\matrix tester.exe.config
+C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\obj\Debug\matrix tester.exe
+C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\obj\Debug\matrix tester.pdb

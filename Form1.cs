@@ -99,5 +99,31 @@ namespace matrix_tester
         {
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
         }
+
+        bool[,] bwImg;
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (pictureBox4.Image == null)
+            {
+                img3 = new Bitmap("image1.png");
+                xres = img3.Width;
+                yres = img3.Height;
+                for (int xx = 1; xx < xres; xx++)
+                {
+                    for (int yy = 1; yy < yres; yy++)
+                    {
+                        if(img3.GetPixel(xx, yy) == Color.FromArgb(255, 255, 255, 255)) //white
+                        {
+                            bwImg[xx, yy] = true;
+                        }
+                        else
+                        {
+                            bwImg[xx, yy] = false;
+                        }
+                    }
+                }
+            }
+
+        }
     }
 }
