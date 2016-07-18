@@ -1,4 +1,4 @@
-﻿namespace matrix_tester
+﻿namespace game_of_life
 {
     partial class GameOfLife
     {

@@ -6,13 +6,12 @@ C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\matrix_t
 C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\game of life.csproj.GenerateResource.Cache
 C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\matrix tester.exe
 C:\Users\Fredrik\Dropbox\div crap\matrix tester\matrix tester\obj\Debug\matrix tester.pdb
-C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\bin\Debug\matrix tester.exe.config
-C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\obj\Debug\matrix tester.exe
-C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\obj\Debug\matrix tester.pdb
-C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\bin\Debug\matrix tester.exe
-C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\bin\Debug\matrix tester.pdb
-C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\obj\Debug\game of life.csprojResolveAssemblyReference.cache
-C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\obj\Debug\matrix_tester.Properties.Resources.resources
 C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\obj\Debug\game of life.csproj.GenerateResource.Cache
 C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\bin\Debug\imageSeed.png
-C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\obj\Debug\matrix_tester.GameOfLife.resources
+C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\bin\Debug\Game of life.exe.config
+C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\bin\Debug\Game of life.exe
+C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\bin\Debug\Game of life.pdb
+C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\obj\Debug\game_of_life.Properties.Resources.resources
+C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\obj\Debug\Game of life.exe
+C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\obj\Debug\Game of life.pdb
+C:\Users\Fredrik\Documents\GitHub\Game-of-life-simulation\obj\Debug\game_of_life.GameOfLife.resources

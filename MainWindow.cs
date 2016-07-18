@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Drawing.Imaging;
 using System.Threading;
 
-namespace matrix_tester
+namespace game_of_life
 {
     public partial class GameOfLife : Form
     {

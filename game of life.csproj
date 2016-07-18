@@ -7,8 +7,8 @@
     <ProjectGuid>{532E5581-5507-4A5F-99D2-C14C2DA406BB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>matrix_tester</RootNamespace>
-    <AssemblyName>matrix tester</AssemblyName>
+    <RootNamespace>game_of_life</RootNamespace>
+    <AssemblyName>Game of life</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -63,6 +63,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

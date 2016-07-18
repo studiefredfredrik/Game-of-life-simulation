@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace matrix_tester
+namespace game_of_life
 {
     static class Program
     {
