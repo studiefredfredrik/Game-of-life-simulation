@@ -12,9 +12,9 @@ using System.Threading;
 
 namespace matrix_tester
 {
-    public partial class Form1 : Form
+    public partial class GameOfLife : Form
     {
-        public Form1()
+        public GameOfLife()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace matrix_tester
         int xres;
         int yres;
 
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        private void backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
         {
             while (workerisrunning)
             {
@@ -72,58 +72,40 @@ namespace matrix_tester
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnStart_Click(object sender, EventArgs e)
         {
             if (pictureBox4.Image == null)
             {
-                img3 = new Bitmap("image1.png");
+                img3 = new Bitmap("imageSeed.png");
                 xres = img3.Width;
                 yres = img3.Height;
             }
             
-            backgroundWorker1.WorkerSupportsCancellation = true;
+            backgroundWorker.WorkerSupportsCancellation = true;
             if (!workerisrunning)
             {
-                backgroundWorker1.RunWorkerAsync();
+                btnStart.Text = "Stop";
                 workerisrunning = true;
+                backgroundWorker.RunWorkerAsync();
             }
             else
             {
+                btnStart.Text = "Start";
                 workerisrunning = false;
-                backgroundWorker1.CancelAsync();
+                backgroundWorker.CancelAsync();
             }
                 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void MainWindow_Load(object sender, EventArgs e)
         {
+            // Load picture to frame
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.Image = new Bitmap("imageSeed.png");
+            img3 = new Bitmap("imageSeed.png");
+            xres = img3.Width;
+            yres = img3.Height;
         }
 
-        bool[,] bwImg;
-        private void button5_Click(object sender, EventArgs e)
-        {
-            if (pictureBox4.Image == null)
-            {
-                img3 = new Bitmap("image1.png");
-                xres = img3.Width;
-                yres = img3.Height;
-                for (int xx = 1; xx < xres; xx++)
-                {
-                    for (int yy = 1; yy < yres; yy++)
-                    {
-                        if(img3.GetPixel(xx, yy) == Color.FromArgb(255, 255, 255, 255)) //white
-                        {
-                            bwImg[xx, yy] = true;
-                        }
-                        else
-                        {
-                            bwImg[xx, yy] = false;
-                        }
-                    }
-                }
-            }
-
-        }
     }
 }
